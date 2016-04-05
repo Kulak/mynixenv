@@ -1,0 +1,12 @@
+# This is a special configuration file
+# See 
+# 	man pam_env.conf 
+# for details.
+#
+# This file controls environment variables
+# when user logs into ubuntu GUI shell.
+
+FOO=been_in_mynixenv_.pam_environment
+
+# Append go language to the PATH
+PATH DEFAULT=${PATH}:/usr/local/go/bin

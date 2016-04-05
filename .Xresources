@@ -1,0 +1,43 @@
+! Good documentation:
+! https://wiki.archlinux.org/index.php/X_resources
+XTerm*background:   black
+XTerm*foreground:   grey
+XTerm*cursorColor:  green
+XTerm*scrollBar:    true
+XTerm*saveLines:    10000
+XTerm*rightScrollBar: true
+XTerm*toolBar:      On
+XTerm*faceName:		BitStream Vera Sans Mono
+XTerm*faceSize:		10
+XTerm*vt100*geometry:	120x50
+
+UXTerm*background:   black
+UXTerm*foreground:   grey
+UXTerm*cursorColor:  green
+UXTerm*scrollBar:    true
+UXTerm*saveLines:    10000
+UXTerm*rightScrollBar: true
+UXTerm*toolBar:      On
+UXTerm*faceName:		BitStream Vera Sans Mono
+UXTerm*faceSize:		9
+UXTerm*vt100*geometry:	120x50
+
+! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
+URxvt.perl-ext-common:	tabbed
+URxvt*background:   black
+URxvt*foreground:   grey
+URxvt*cursorColor:  green
+URxvt*scrollBar:    true
+URxvt*scrollBar_right: true
+URxvt*saveLines:    10000
+URxvt*toolBar:      On
+URxvt*font:			xft:BitStream Vera Sans Mono:normal:size=9
+! default letter spacing is too wide, reduce it
+! -2 matches xterm spacing
+URxvt*letterSpace:	-2
+URxvt*geometry:	120x50
+! by default rxvt colors are the same as xterm, with one following exeption
+! The following line changes blue color to be light blue
+! This makes it readeable on black background
+URxvt.color12: rgb:5c/5c/ff
+
