@@ -9,6 +9,9 @@
 # Debugging line
 # echo "Loading mynixenv/bashrc.sh"
 
+# shorten path printed by \w in $PS1 by leaving number of directories
+PROMPT_DIRTRIM=2
+
 # for bash history
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'

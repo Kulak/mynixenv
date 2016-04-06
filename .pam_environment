@@ -10,3 +10,4 @@ FOO=been_in_mynixenv_.pam_environment
 
 # Append go language to the PATH
 PATH DEFAULT=${PATH}:/usr/local/go/bin
+GOPATH DEFAULT=${HOME}/gw/public:${HOME}/gw/personal
