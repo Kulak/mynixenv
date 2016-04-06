@@ -1,6 +1,6 @@
 
 # Add the following code to your ~/.bashrc file
-# bashrc is supposed to run interactively
+# bashrc is supposed to run interactively on Ubuntu Linux
 #
 #	if [ -f "$HOME/mynixenv" ]; then
 #		. "$HOME/mynixenv/bashrc.sh"
