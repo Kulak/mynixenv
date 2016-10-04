@@ -3,6 +3,13 @@ My Linux Environment
 
 This project currently reflects Ubuntu environment.
 
+There is a quick installation script called install.sh.
+Running it shall execute all the following instructions.
+
+To install with script:
+
+    ~/mynixenv/install.sh
+
 ## Files
 
 Files are in `ls -ca` order.
@@ -31,5 +38,5 @@ Controls Ubuntu user variables on logon.
 
 For example, set PATH to include go language.
 
-	cd ~; ln -s ~/mynixenv/.Xresources
+	cd ~; ln -s ~/mynixenv/.pam_environment
 
